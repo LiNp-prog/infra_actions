@@ -2,7 +2,9 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('У меня получилось сделать deploy через GitHub actions!')
+    return HttpResponse(
+        'У меня получилось сделать deploy через GitHub actions!'
+    )
 
 
 def second_page(request):
